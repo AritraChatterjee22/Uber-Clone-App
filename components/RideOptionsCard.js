@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 const RideOptionsCard = () => {
   return (
     <View>
-      <Text>Pick a ride </Text>
+      <Text>Pick a Ride </Text>
     </View>
   );
 };
