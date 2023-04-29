@@ -35,7 +35,7 @@ const data = [
   },
 ];
 
-const SURGE_CHARGE_RATE = 3.5;
+const SURGE_CHARGE_RATE = 5;
 
 const RideOptionsCard = () => {
   const navigation = useNavigation();
@@ -61,9 +61,8 @@ const RideOptionsCard = () => {
         renderItem={({ item: { id, title, multiplier, image }, item }) => (
           <TouchableOpacity
             onPress={() => setSelected(item)}
-            style={tw`flex-row justify-between items-center px-5 ${
-              id === selected?.id && "bg-gray-200"
-            }`}
+            style={tw`flex-row justify-between items-center px-5 ${id === selected?.id && "bg-gray-200"
+              }`}
           >
             <Image
               style={{ width: 100, height: 100, resizeMode: "contain" }}
@@ -81,7 +80,7 @@ const RideOptionsCard = () => {
                 (travelTimeInformation?.duration.value *
                   SURGE_CHARGE_RATE *
                   multiplier) /
-                  100
+                100
               )}
             </Text>
           </TouchableOpacity>
