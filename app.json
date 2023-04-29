@@ -8,13 +8,11 @@
     "icon": "./assets/uber-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/uber-splash.png",
+      "image": "./assets/uber-splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
