@@ -1,13 +1,14 @@
 {
   "expo": {
-    "name": "uber-clone",
+    "name": "Uber Clone",
     "slug": "uber-clone",
+    "description": "This is a simple uber clone to test my knowledge on react-native.",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/uber-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/uber-splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
